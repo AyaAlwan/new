@@ -1,0 +1,29 @@
+Package: thesisdownmq
+Title: An updated R Markdown thesis template using the bookdown package for creating 
+  Macquarie University HDR theses
+Version: 0.0.1
+Authors@R: as.person(c(
+  "Thomas Fung <thomas.fung@mq.edu.au> [aut, cre]",
+  "Justin Wishart <justin.wishart@mq.edu.au> [aut]"
+  ))
+Description: This is a modified version of the thesisdown package which uses the 
+  bookdown package and LaTeX thesis template from Reed College toencourage reproducible 
+  research using simple Markdown syntax while embedding all of the R code to produce 
+  plots and analyses as well. The modifications made are for use in Macquarie University 
+  HDR theses.
+Depends: 
+  R (>= 3.2.0),
+  devtools,
+  dplyr,
+  ggplot2,
+  bookdown,
+  knitr
+URL: http://stat.mq.edu.au/
+BugReports: https//github.com/thomas-fung/thesisdownmq
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+
+
+
